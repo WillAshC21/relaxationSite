@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+}
+#soothing {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.6;
+}
+#nav-bar {
+  background-color: transparent;
+}
+li {
+    list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  float: right;
+  padding: 0px 10px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+  transition: 5s;
+  background-color: #00bfff;
+}
+#relax-header {
+  font-family: Tahoma, sans-serif;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#relax-title {
+  font-size: 48px;
+}
+#relax-subtitle {
+  font-size: 32px;
+}
